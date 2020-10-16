@@ -1,0 +1,129 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.main-header {
+	background-color: black;
+	width: 100%;
+	height: 3.5rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.main-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+}
+
+.main-list a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.main-list a:hover {
+	color: #4b4be0;
+}
+
+.elements {
+	margin: 0;
+	padding: 2rem;
+}
+
+.img {
+	display: table;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.ytimg.com/vi/RVqBUFA8W68/maxresdefault.jpg") no-repeat center
+			center fixed;
+	background-size: cover;
+	height: 92.3vh;
+}
+
+.heading {
+	color: #ffffff;
+	font-size: 100px;
+	text-align: center;
+	margin-top: 30vh;
+}
+
+.ourProducts {
+	width: 100%;
+	height: 6rem;
+	background-color: black;
+	color: wheat;
+	font-size: 30px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.product1 {
+	height: 20rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://1.bp.blogspot.com/-V2DiuhaQ-Ic/X09KAlyj9GI/AAAAAAAARJU/KjFeLydIHnsSCnEdvgVOba-Vh3pKnA6OACLcBGAsYHQ/s1600/nvidia-geforce-rtx-3090.png")
+			no-repeat center center fixed;
+	background-size: cover;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.product1 h2 {
+	color: #02a802;
+}
+
+.product1 p {
+	color: #d3d32e;
+}
+
+.product2 {
+	height: 20rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(#00000080, #00000080),
+		url("https://uploads.ifdesign.de/award_img_330/oex_large/255288_01_geforce_rtx_2080ti_1.jpg")
+			no-repeat center center fixed;
+	background-size: cover;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.product2 h2 {
+	color: #02a802;
+}
+
+.product2 p {
+	color: #d3d32e;
+}
+
+.main-footer {
+	margin: 0;
+	padding: 0;
+	height: 3.5rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: black;
+	color: white;
+}
+
+.main-footer h1 {
+	cursor: pointer;
+}
+
+.main-footer h1:hover {
+	color: #4b4be0;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul class="main-list">
+                <li class="elements"><a href="#">PLATFORMS</a></li>
+                <li class="elements"><a href="#">DEVELOPERS</a></li>
+                <li class="elements"><a href="#">SUPPORT</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <main>
+        <div class="img">
+            <h1 class="heading">PAN INFOTECH</h1>
+        </div>
+        <div class="ourProducts">Our Products:</div>
+        <div class="product1">
+            <h2>GEFORCE RTX 3090</h2>
+            <p>
+                The GeForce RTX™ 3090 is a big ferocious GPU (BFGPU) with TITAN class performance. It’s powered by Ampere—NVIDIA’s 2nd gen RTX architecture—doubling down on ray tracing and AI performance with enhanced Ray Tracing (RT) Cores, Tensor Cores, and new streaming multiprocessors. Plus, it features a staggering 24 GB of G6X memory, all to deliver the ultimate gaming experience.
+            </p>
+        </div>
+        <div class="product2">
+            <h2>GEFORCE RTX 2080 Ti</h2>
+            <p>
+                NVIDIA’s newest flagship graphics card is a revolution in gaming realism and performance. Its powerful NVIDIA Turing™ GPU architecture, breakthrough technologies, and 11 GB of next-gen, ultra-fast GDDR6 memory make it the world’s ultimate gaming GPU. 
+            </p>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <h1>CONTACT US</h1>
+    </footer>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script>
+        gsap.from(".elements", { opacity: 0, stagger: 1, duration: 1 })
+        gsap.from(".heading", { opacity: 0, stagger: 1, duration: 1, delay: 2.5 })
+    </script>
+</body>
+</html>
+
